@@ -1,0 +1,95 @@
+button {
+background-color: aqua;  
+font-size: 50px;
+color:black;
+width: 200px;
+height: 100px; 
+
+} 
+
+button:hover {
+    color:yellow;
+    background: black; 
+     
+   
+}
+
+
+.count{
+    font-size: 100px;
+    
+}
+
+ .reset{
+    background-color:teal;
+    color:cornsilk;
+    font-size: 40px;
+    height: 80px;
+    
+}
+.reset:hover{
+    color:beige;
+    background:rgb(202, 129, 102); 
+    box-shadow: 0 0 10px #5c6165,0 0 40px #8996a1, 0 0 80px #4b5963;
+    transition-delay: 1s; 
+    
+}  
+
+ .title-word {
+    animation: color-animation 2s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #5ccbd3;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container{
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+  }  
+  
+
+
+    
+ 
